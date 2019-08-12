@@ -1,0 +1,10 @@
+void add_to_background(pid_t proc_id,char * com_name);
+void add_to_foreground(pid_t proc_id,char * com_name);
+void jobControl();
+void setenv_builtin(char ** s,int number_of_arguments);
+void unsetenv_builtin(char ** s,int number_of_arguments);
+void jobs_builtin(int number_of_arguments);
+void kjob_builtin(char ** s,int number_of_arguments);
+void bg_builtin(char ** s,int number_of_arguments);
+void fg_builtin(char ** s,int number_of_arguments);
+void overkill_builtin(char ** s,int number_of_arguments);
